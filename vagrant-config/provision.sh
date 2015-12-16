@@ -20,4 +20,6 @@ apt-get -y install git multitail nginx libcurl3-dev linux-headers-$(uname -r) bu
 echo "
 check_mail:0" >> /etc/multitail.conf
 mysql -uroot -proot < /vagrant/vagrant-config/users.sql
+mysql -uroot -proot < /vagrant/vagrant-config/reset.sql
+mysql -uroot -proot wp_local < /vagrant/vagrant-config/schema.sql
 chown -R vagrant:vagrant /home/vagrant/

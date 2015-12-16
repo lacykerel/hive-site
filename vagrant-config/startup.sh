@@ -13,7 +13,5 @@ cp -f /vagrant/vagrant-config/nginx.conf /etc/nginx/nginx.conf
 cp -f /vagrant/vagrant-config/php-fpm.conf /etc/php5/fpm/php-fpm.conf
 cp -f /vagrant/vagrant-config/php.ini /etc/php5/fpm/php.ini
 service mysql restart
-mysql -uroot -proot < /vagrant/vagrant-config/reset.sql
-mysql -uroot -proot wp_local < /vagrant/vagrant-config/schema.sql
 service nginx restart
 service php5-fpm restart
