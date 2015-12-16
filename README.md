@@ -20,5 +20,7 @@ In order to set up and run this site locally you'll need the following:
 - Insue the Vagrant startup command (`vagrant up`)
   - The first time you start vagrant, it will take a while to download the packages need to run the website and configure the environment.
 - After the startup process completes, you can visit the local website at the following urls:
-  - Website: http://localhost:8888/
-  - Admin Panel: Website: http://localhost:8888/wp-admin/ (Username: admin / Password: admin)
+  - Website: [http://localhost:8888/] (http://localhost:8888/)
+  - Admin Panel: [http://localhost:8888/wp-admin/] (http://localhost:8888/wp-admin/) 
+  - Username: admin
+  - Password: admin
