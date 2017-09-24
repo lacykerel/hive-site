@@ -45,13 +45,41 @@ a {
   font-weight: normal;
   text-decoration: none;
 }
+
+p {
+  line-height: 28px;
+  font-size: 1.2em;
+  font-family: $primaryFont;
+  font-weight: normal;
+}
+
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
 .hide {
   display: none;
 }
 .show {
   display: block;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 
+.content-center {
+  @include center-center-element();
+}
+
+h1 {
+  font-size: (44/16) * 1em;
+  font-family: $tertiaryFont;
+}
 h2 {
   font-size: (36/16) * 1em;
   font-family: $tertiaryFont;

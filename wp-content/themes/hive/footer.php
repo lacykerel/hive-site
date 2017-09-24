@@ -14,6 +14,8 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+		<div class="copyright">&copy; <?php the_date('Y'); ?></div>
+		<div class="social"></div>
 
 	</footer><!-- #colophon -->
 </div><!-- #page -->

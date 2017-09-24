@@ -10,9 +10,11 @@ header {
   width: span(6);
   .brand {
     a {
-      color: #fff;
+      color: #000;
       text-transform: uppercase;
       font-weight: 600;
+      font-family: $tertiaryFont;
+      font-size: (24/16) * 1em;
     }
   }
 }

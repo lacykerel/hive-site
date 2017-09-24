@@ -1,20 +1,39 @@
+.component-block {
+  position: relative;
+  height: 325px;
+  width: span(12);
+  &.component-block--light {
+    background-color: #fff;
+    color: #000;
+  }
+  &.component-block--dark {
+    background-color: #000;
+    color: #fff;
+  }
+  &.component-block--primary {
+    background-color: $primaryColor;
+  }
+}
 .component-split {
   display: flex;
-  position: relative;
   .component-block {
-    width: span(6 of 12);
-    height: 325px;
+    @include breakpoint((min-width: 48em)) {
+      width: span(6 of 12);
+    }
   }
 }
 
-.component-block {
-  position: relative;
-  &.component-block--light {
-    h2 {
-      @include center-center-element();
-      text-align: center;
+.component-one-third {
+  display: flex;
+  .component-block {
+    width: span(3 of 12);
+    color: $primaryColor;
+    &:last-child {
+      width: span(9 of 12);
+      p {
+        color: #fff;
+      }
     }
-
   }
 }
 
@@ -36,4 +55,16 @@
   a {
     @include center-center-element();
   }
+}
+
+.contact-section {
+  text-align: center;
+  h2 {
+    margin-bottom: 20px;
+  }
+  .component-block--primary {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
