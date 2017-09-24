@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Oswald');
+@import "susy/susy";
+@import "reset";
+
+$primaryFont: 'Lato';
+$secondaryFont: 'Roboto';
+$tertiaryFont: 'Oswald';
+$primaryColor: #ffc20d;
+
+// Susy Mobile
+$total-columns: 7;
+$column-width: 4.25em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+$susy: (
+  columns: 12, // The number of columns in grid
+  gutter-position: inside,
+  global-box-sizing: content-box,
+  math: fluid, // internal grid values will be calculated as multiples of the column-width
+  output: float,
+  flow: ltr, // reading direction of document, layouts will flow from left to right
+  last-flow: right
+);
+
+$susy-fluid: (
+  columns: 24,
+  gutter-position: inside,
+  global-box-sizing: content-box,
+  math: fluid,
+  output: float,
+  float: ltr,
+  last-flow: right
+);
+
+body {
+  background-color: #fff;
+  font-family: $primaryFont;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+h2 {
+  font-size: (36/16) * 1em;
+  font-family: $tertiaryFont;
+}

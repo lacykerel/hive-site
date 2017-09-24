@@ -1,0 +1,39 @@
+.component-split {
+  display: flex;
+  position: relative;
+  .component-block {
+    width: span(6 of 12);
+    height: 325px;
+  }
+}
+
+.component-block {
+  position: relative;
+  &.component-block--light {
+    h2 {
+      @include center-center-element();
+      text-align: center;
+    }
+
+  }
+}
+
+
+.component--service {
+  background: url('../../../img/people-coffee-tea-meeting.jpg');
+  background-size: cover !important;
+  .overlay {
+    background-image: linear-gradient(
+      rgba(255, 194, 13, 0.45),
+      rgba(255, 150, 13, 0.85)
+    ) !important;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  a {
+    @include center-center-element();
+  }
+}

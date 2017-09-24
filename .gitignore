@@ -1,2 +1,12 @@
 .vagrant
 .DS_Store
+node_modules/
+.capistrano
+wp-content/uploads/
+error.log
+npm-debug.log
+
+*.log
+*.map
+
+*.gz

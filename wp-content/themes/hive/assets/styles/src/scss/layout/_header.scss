@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.brand-container {
+  background-color: #ffc20d;
+  padding: 20px;
+  width: span(6);
+  .brand {
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+}
+
+.menu-toggle {
+  padding: 20px;
+  width: span(6);
+  text-transform: uppercase;
+  a {
+    color: #000;
+    float: right;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,21 @@
+// Vertical Align
+@mixin vertical-align-element(){
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+// Horizontal Align
+@mixin horizontal-align-element(){
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+// Vertical and Horizontal Align
+@mixin center-center-element(){
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
