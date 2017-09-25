@@ -17,9 +17,7 @@
 .component-split {
   display: flex;
   .component-block {
-    @include breakpoint((min-width: 48em)) {
-      width: span(6 of 12);
-    }
+    width: span(6 of 12);
   }
 }
 
