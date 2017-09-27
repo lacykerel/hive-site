@@ -18,7 +18,7 @@
           <?php if(get_field('main_copy')) : ?>
           <?php the_field('main_copy'); ?>
         <?php else : ?>
-          Growing our nest, one client at a time.
+          Growing your nest, one client at a time.
         <?php endif; ?>
       </h1>
     </div>
@@ -35,7 +35,7 @@
       </div>
       <div class="component-block component-block--dark">
         <div class="content-center">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       </div>
     </div>

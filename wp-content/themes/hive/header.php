@@ -28,7 +28,7 @@
 			<div class="brand"><a href="/"><img src=""/> Hive</a></div>
 		</div>
 		<div class="menu-toggle">
-			<a href="#menu" class="js-menu-toggle">Menu</a>
+			<a href="#menu" class="js-menu-toggle"><span><img class="comb" src="<?php bloginfo('template_directory');?>/assets/img/comb.svg"/></span>Menu</a>
 		</di>
 		<div class="nav-contain hide">
 		<nav id="site-navigation" class="main-navigation">

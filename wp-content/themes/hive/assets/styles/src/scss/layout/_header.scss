@@ -27,5 +27,15 @@ header {
     color: #000;
     float: right;
     font-weight: 600;
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
   }
+}
+
+.comb {
+  width: 55px;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
 }

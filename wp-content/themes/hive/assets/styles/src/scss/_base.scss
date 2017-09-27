@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Oswald');
 @import "susy/susy";
+@import "breakpoints";
 @import "reset";
 
 $primaryFont: 'Lato';
@@ -12,6 +13,14 @@ $total-columns: 7;
 $column-width: 4.25em;
 $gutter-width: 1em;
 $grid-padding: $gutter-width;
+
+$breakpoints: (
+  'small': 768px,
+  'medium': 769px,
+  'large': 1008px,
+  'wide': 1200px,
+  'mega': 1392px
+);
 
 $susy: (
   columns: 12, // The number of columns in grid
