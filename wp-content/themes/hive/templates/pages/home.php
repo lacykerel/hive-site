@@ -21,6 +21,7 @@
           Growing your nest, one client at a time.
         <?php endif; ?>
       </h1>
+      <?php the_content(); ?>
     </div>
         <img src="" /> <!-- cone img -->
       </div>

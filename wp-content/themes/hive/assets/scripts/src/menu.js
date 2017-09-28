@@ -38,10 +38,3 @@
 	init();
 
 })();
-
-+function ($) {
-
-  $(document).ready(function(){
-    console.log('HI');
-  });
-}(jQuery);

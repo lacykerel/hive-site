@@ -12,7 +12,7 @@
     "sass:watch": "chokidar 'assets/styles/src/scss/**/*.scss' -c 'npm run sass:build'",
     "js:watch": "chokidar 'assets/scripts/src/*.js' -c 'npm run build'",
     "cleancss": "cleancss assets/styles/dist/css/main.css -o assets/styles/dist/css/main.min.css",
-    "dev": "npm-run-all -p sass:* cleancss"
+    "dev": "npm-run-all -p sass:* cleancss build-task:js-*"
   },
   "author": "",
   "license": "ISC",
