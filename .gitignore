@@ -5,6 +5,8 @@ node_modules/
 wp-content/uploads/
 error.log
 npm-debug.log
+local-config.php
+
 
 *.log
 *.map
