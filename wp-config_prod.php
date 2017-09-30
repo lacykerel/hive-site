@@ -25,7 +25,7 @@ define('DB_USER', 'kerel');
 define('DB_PASSWORD', 'heatvision13');
 
 /** MySQL hostname */
-define('DB_HOST', '165.227.94.190');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
