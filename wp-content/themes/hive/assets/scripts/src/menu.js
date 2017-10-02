@@ -27,10 +27,10 @@
 
 	function toggleMenu() {
 		if( isOpen ) {
-			classie.remove( bodyEl, 'show-menu' );
+			bodyEl.ClassList.remove('show-menu');
 		}
 		else {
-			classie.add( bodyEl, 'show-menu' );
+			bodyEl.ClassList.add('show-menu');
 		}
 		isOpen = !isOpen;
 	}

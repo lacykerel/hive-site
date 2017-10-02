@@ -6,13 +6,14 @@
   "scripts": {
     "build-task-scss:scss-compile": "node-sass-chokidar assets/styles/src/scss/ -o assets/styles/dist/css",
     "build-task-scss:autoprefixer": "postcss assets/styles/dist/css/*.css --use autoprefixer -d assets/styles/dist/css",
-    "build-task:js-concat": "concat assets/scripts/src/*.js -o assets/scripts/dist/scripts.js",
-    "build-task:js-minify": "echo '=> minify:js' && uglifyjs assets/scripts/dist/scripts.js -o assets/scripts/dist/main.min.js",
+    "build-task-js:js-concat": "concat assets/scripts/src/*.js -o assets/scripts/dist/scripts.js",
+    "build-task-js:js-minify": "echo '=> minify:js' && uglifyjs assets/scripts/dist/scripts.js -o assets/scripts/dist/main.min.js",
     "sass:build": "npm-run-all -p build-task-scss:*",
+    "js:build": "npm-run-all -p build-task-js:*",
     "sass:watch": "chokidar 'assets/styles/src/scss/**/*.scss' -c 'npm run sass:build'",
-    "js:watch": "chokidar 'assets/scripts/src/*.js' -c 'npm run build'",
+    "js:watch": "chokidar 'assets/scripts/src/*.js' -c 'npm run js:build'",
     "cleancss": "cleancss assets/styles/dist/css/main.css -o assets/styles/dist/css/main.min.css",
-    "dev": "npm-run-all -p sass:* cleancss build-task:js-*"
+    "dev": "npm-run-all -p sass:* cleancss js:watch"
   },
   "author": "",
   "license": "ISC",

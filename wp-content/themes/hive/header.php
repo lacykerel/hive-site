@@ -28,18 +28,21 @@
 			<div class="brand"><a href="/"><img src=""/> Hive</a></div>
 		</div>
 		<div class="menu-toggle">
-			<a href="#menu" class="js-menu-toggle"><span><img class="comb" src="<?php bloginfo('template_directory');?>/assets/img/comb.svg"/></span>Menu</a>
+			<button id="open-button" class="js-menu-toggle pull-right"><span><img class="comb" src="<?php bloginfo('template_directory');?>/assets/img/comb.svg"/></span>Menu</button>
 		</di>
-		<div class="nav-contain hide">
-		<nav id="site-navigation" class="main-navigation">
-			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				) );
-			?>
-		</nav><!-- #site-navigation -->
+		<div class="menu-wrap">
+			<div class="menu nav-contain hide">
+				<a href="#" id="close-button">Close Button</a>
+				<nav id="site-navigation" class="menu main-navigation">
+					<?php
+						wp_nav_menu( array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'primary-menu',
+						) );
+					?>
+				</nav><!-- #site-navigation -->
+			</div>
 		</div>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="content-wrap site-content">

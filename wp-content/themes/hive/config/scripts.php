@@ -6,17 +6,17 @@ function init_js() {
   // Set Site Scripts
   if (!is_admin() && !is_login_page()) {
 
-
+    // 
     // Redfine jQuery
     // wp_deregister_script('jquery');
-    // wp_register_script(
-    //   $handle = 'site-jquery',
-    //   $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://code.jquery.com/jquery-1.11.2.min.js",
-    //   $deps = array(),
-    //   $ver = null,
-    //   $in_footer = false
-    // );
-    // wp_enqueue_script('site-jquery');
+    wp_register_script(
+      $handle = 'site-jquery',
+      $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://code.jquery.com/jquery-1.11.2.min.js",
+      $deps = array(),
+      $ver = null,
+      $in_footer = false
+    );
+    wp_enqueue_script('site-jquery');
 
 
     // Define Modernizr
@@ -34,7 +34,7 @@ function init_js() {
     wp_register_script(
       $handle = 'main-scripts',
       $src = get_bloginfo('template_directory') . '/assets/scripts/dist/main.min.js',
-      $deps = array('jquery', 'vendor-scripts'),
+      $deps = array(),
       $ver = null,
       $in_footer = true
     );

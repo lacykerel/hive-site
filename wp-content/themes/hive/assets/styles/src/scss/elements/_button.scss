@@ -8,6 +8,9 @@
   font-weight: bold;
   font-size: 24px;
   transition: background-color, color, 0.4s ease-in-out;
+  -webkit-appearance: none;
+  -moz-apperance: none;
+
   &.btn-light {
     color: #fff;
     border-color: #fff;
@@ -16,4 +19,15 @@
     background-color: #fff;
     color: #ffc20d;
   }
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: $tertiaryFont;
+  font-size: 1.2em;
 }
