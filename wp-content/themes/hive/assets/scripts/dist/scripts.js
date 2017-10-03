@@ -1,40 +1,21 @@
-(function() {
++(function($) {
 
-	var bodyEl = document.body,
-		content = document.querySelector( '.content-wrap' ),
-		openbtn = document.getElementById( 'open-button' ),
-		closebtn = document.getElementById( 'close-button' ),
-		isOpen = false;
+$(document).ready(function() {
+	var openMenu = $('#open-button'),
+	closeMenu = $('#close-button'),
+	menu = $('.menu');
 
-	function init() {
-		initEvents();
-	}
+	openMenu.click(function() {
+		$('body').toggleClass('menuOpen');
+		menu.removeClass('hide');
+		menu.toggleClass('activeMenu');
+		return false;
+	});
+	closeMenu.click(function() {
+		menu.addClass('hide');
+		$('body').removeClass('menuOpen');
+		return false;
+	});
+});
 
-	function initEvents() {
-		openbtn.addEventListener( 'click', toggleMenu );
-		if( closebtn ) {
-			closebtn.addEventListener( 'click', toggleMenu );
-		}
-
-		// close the menu element if the target it´s not the menu element or one of its descendants..
-		content.addEventListener( 'click', function(ev) {
-			var target = ev.target;
-			if( isOpen && target !== openbtn ) {
-				toggleMenu();
-			}
-		} );
-	}
-
-	function toggleMenu() {
-		if( isOpen ) {
-			bodyEl.ClassList.remove('show-menu');
-		}
-		else {
-			bodyEl.ClassList.add('show-menu');
-		}
-		isOpen = !isOpen;
-	}
-
-	init();
-
-})();
+})(jQuery);

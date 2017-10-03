@@ -10,3 +10,4 @@ function user_role_class($classes) {
 add_filter('admin_body_class', 'user_role_class');
 
 ?>
+<?php show_admin_bar( false); ?>

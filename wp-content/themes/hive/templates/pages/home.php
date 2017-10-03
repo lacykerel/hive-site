@@ -7,21 +7,20 @@
 <main>
   <section class="service-section">
     <div class="component-split">
-      <div class="component-block component--service">
+      <div class="component-block component--service" style="background: url('<?php the_field('image');?>');">
         <div class="overlay">
-          <a href="/services" class="btn btn-light">Our Services</a>
+          <a href="<?php the_field('cta_link');?>" class="btn btn-light"><?php the_field('cta_text');?></a>
         </div>
       </div>
       <div class="component-block component-block--light">
         <div class="content-center">
         <h1 class="align-center">
-          <?php if(get_field('main_copy')) : ?>
-          <?php the_field('main_copy'); ?>
+          <?php if(get_field('main_message')) : ?>
+          <?php the_field('main_message'); ?>
         <?php else : ?>
           Growing your nest, one client at a time.
         <?php endif; ?>
       </h1>
-      <?php the_content(); ?>
     </div>
         <img src="" /> <!-- cone img -->
       </div>
@@ -31,12 +30,12 @@
     <div class="component-one-third">
       <div class="component-block">
         <div class="content-center">
-        <h2 class="uppercase">Our Strategy</h2>
+        <h2 class="uppercase"><?php the_field('home_content_title');?></h2>
       </div>
       </div>
       <div class="component-block component-block--dark">
         <div class="content-center">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><?php the_field('home_content_body');?></p>
       </div>
       </div>
     </div>

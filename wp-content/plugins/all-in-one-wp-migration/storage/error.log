@@ -1,174 +1,39 @@
-[Nov 20 2015 15:22:44] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:22:44] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:22:51] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:22:56] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:22:56] ERROR_HANDLER 
-Number:  2
-Message: chmod() expects parameter 2 to be long, string given
-File:    /vagrant/wp-admin/includes/class-wp-filesystem-direct.php
-Line:    144
--------------------------------------------- 
-[Nov 20 2015 15:22:56] ERROR_HANDLER 
-Number:  2
-Message: chmod() expects parameter 2 to be long, string given
-File:    /vagrant/wp-admin/includes/class-wp-filesystem-direct.php
-Line:    144
--------------------------------------------- 
-[Nov 20 2015 15:23:37] ERROR_HANDLER 
-Number:  2
-Message: unlink(/vagrant/wp-content/uploads/awb/automatic-wordpress-backup.zip): No such file or directory
-File:    /vagrant/wp-content/plugins/automatic-wordpress-backup/automatic-wordpress-backup.php
-Line:    758
--------------------------------------------- 
-[Nov 20 2015 15:25:06] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:25:08] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:25:08] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:25:09] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:25:24] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:25:25] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:27:10] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 15:28:22] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 17:04:43] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 17:04:49] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 17:04:53] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:09:47] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:09:55] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:10:37] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:22:03] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:22:10] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:23:01] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:32:03] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:32:11] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:32:25] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
-[Nov 20 2015 18:36:46] ERROR_HANDLER 
-Number:  2
-Message: unlink(/vagrant/wp-content/uploads/awb/automatic-wordpress-backup.zip): No such file or directory
-File:    /vagrant/wp-content/plugins/automatic-wordpress-backup/automatic-wordpress-backup.php
-Line:    758
--------------------------------------------- 
-[Nov 20 2015 18:40:05] ERROR_HANDLER 
-Number:  2
-Message: gzinflate(): data error
-File:    /vagrant/wp-includes/class-http.php
-Line:    2136
--------------------------------------------- 
+Oct 03 2017 05:10:03
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:10:06
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:10:08
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:10:28
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:10:40
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:10:52
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:11:04
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:11:17
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:11:23
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:11:25
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:11:28
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:11:29
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
+Oct 03 2017 05:11:31
+{"type":8,"message":"Constant WP_ALLOW_REPAIR already defined","file":"\/vagrant\/wp-config.php","line":79}
+
