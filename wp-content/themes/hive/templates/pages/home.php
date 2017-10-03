@@ -7,7 +7,7 @@
 <main>
   <section class="service-section">
     <div class="component-split">
-      <div class="component-block component--service" style="background: url('<?php the_field('image');?>');">
+      <div class="component-block component--service">
         <div class="overlay">
           <a href="<?php the_field('cta_link');?>" class="btn btn-light"><?php the_field('cta_text');?></a>
         </div>
