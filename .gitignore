@@ -3,6 +3,8 @@
 node_modules/
 .capistrano
 wp-content/uploads/
+wp-content/ai1wm-backups
+wp-content/plugins/all-in-one-wp-migration/storage/error.log
 error.log
 npm-debug.log
 local-config.php
